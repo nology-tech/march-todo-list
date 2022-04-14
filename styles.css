@@ -1,0 +1,31 @@
+* {
+  font-family: sans-serif;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+}
+
+.todo {
+  border: 2px solid red;
+}
